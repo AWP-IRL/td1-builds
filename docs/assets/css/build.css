@@ -46,44 +46,53 @@ ul {
 	font-size: 16px;
 }
 
-.title-container {
-	display: flex;
-	justify-content: center;
-	flex-direction: row;
-	width: 80%;
-	padding-left: 10%;
-}
-
-.title-textbox {
-	float: left;
-	padding-left: 5px;
-	padding-right: 5px;
-	/*flex-grow: 100;*/
-}
-
-.title-image {
-	height: 30px;
-	padding: 10px 0;
-}
-
 .body-container {
 	display: flex;
 	justify-content: center;
 }
 
-.update-container {
-	width: 80%;
-	margin-top: 20px;
-}
-
-.app {
-	color: #5bc1ab;
-	font-size: 14px;
-	text-align:left;
-}
-
 .ttl {
 	color: #b7b7b7;
+}
+
+.collapsible {
+	font-family: Lexend,Arial,Tahoma,Verdana,sans-serif;
+	cursor: pointer;
+	padding: 8px;
+	width: 100%;
+	border: none;
+	border-bottom: solid;
+	border-bottom-width: 1px;
+	border-bottom-color: #b9b9b9;
+	text-align: left;
+	outline: none;
+	font-size: 16px;
+}
+
+.collapsible:hover {
+	background-color: #000;
+	color: #fff;
+}
+
+.content {
+	display: grid;
+	grid-template-rows: auto;
+	padding: 8px 8px;
+	display: none;
+	overflow:auto;
+	max-height:400px;
+}
+
+.collapsible:after {
+	content: '\02795'; /* Unicode character for "plus" sign (+) */
+	font-size: 13px;
+	color: white;
+	float: right;
+	margin-left: 5px;
+}
+
+.active:after {
+	content: "\2796"; /* Unicode character for "minus" sign (-) */
 }
 
 /* xxl */
