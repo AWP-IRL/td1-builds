@@ -168,10 +168,8 @@ body > header nav.left-navigation menu menuitem > span {
   text-align: left;
 }
 
-body > header nav.right-navigation menu menuitem > a,
-body > header nav.right-navigation menu menuitem > label,
-body > header nav.right-navigation menu menuitem > span {
-  text-align: right;
+body > header nav.left-navigation menu menuitem:hover {
+	background-color: #000;
 }
 
 body > header nav menu menuitem > label:after {
@@ -216,4 +214,16 @@ body > header input[type="checkbox"]:checked ~ nav.left-navigation label.menu-to
 
 body > main {
   margin: 0 5vw;
+}
+
+.a-menu {
+	text-decoration: none;
+}
+
+.a-menu:link {
+	color: #f3f3f3;
+}
+
+.a-menu:visited {
+	color: #f3f3f3;
 }

@@ -50,7 +50,11 @@ ul {
 	color: #f3f3f3;
 }
 
-.a-menu:link {
+.a-menu:hover {
+	color: #ff7f00;
+}
+
+.a-menu:visited {
 	color: #f3f3f3;
 }
 
