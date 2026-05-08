@@ -46,6 +46,14 @@ ul {
 	font-size: 16px;
 }
 
+.a-menu:link {
+	color: #f3f3f3;
+}
+
+.a-menu:link {
+	color: #f3f3f3;
+}
+
 .title-container {
 	display: flex;
 	justify-content: center;
