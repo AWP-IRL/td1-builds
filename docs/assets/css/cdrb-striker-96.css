@@ -7,7 +7,7 @@
 	padding-right: 5px;
 }
 .sec-img {
-	background-image: url('../../../docs/assets/images/icons/w-smg-mp5-st.png');
+	background-image: url('../../../docs/assets/images/icons/w-sht-black-market-sasg-12-s.png');
 	background-position: 50% 50%;
 	background-repeat: no-repeat;
 	background-size: contain;
@@ -15,7 +15,7 @@
 	padding-right: 5px;
 }
 .off-img {
-	background-image: url('../../../docs/assets/images/icons/w-p-centurion.png');
+	background-image: url('../../../docs/assets/images/icons/w-p-first-wave-x-45.png');
 	background-position: 50% 50%;
 	background-repeat: no-repeat;
 	background-size: 65%;
@@ -30,7 +30,7 @@
 }
 .char-skill-1 {
 	grid-area: c-s-1;
-	background-image: url('../../../docs/assets/images/icons/csk-support-station-ammo-cache.png');
+	background-image: url('../../../docs/assets/images/icons/csk-first-aid-overdose.png');
 }
 .char-skill-sig {
 	grid-area: c-s-s;
@@ -38,21 +38,21 @@
 }
 .char-skill-2 {
 	grid-area: c-s-2;
-	background-image: url('../../../docs/assets/images/icons/csk-smart-cover-concealment.png');
+	background-image: url('../../../docs/assets/images/icons/csk-seeker-mine-gas-charge.png');
 }
 .char-talent-1 {
 	grid-area: c-t-1;
-	background-image: url('../../../docs/assets/images/icons/ctal-tech-support.png');
+	background-image: url('../../../docs/assets/images/icons/ctal-critical-save.png');
 }
 .char-talent-2 {
 	grid-area: c-t-2;
-	background-image: url('../../../docs/assets/images/icons/ctal-on-the-move.png');
+	background-image: url('../../../docs/assets/images/icons/ctal-combat-medic.png');
 }
 .char-talent-3 {
 	grid-area: c-t-3;
-	background-image: url('../../../docs/assets/images/icons/ctal-one-is-none.png');
+	background-image: url('../../../docs/assets/images/icons/ctal-on-the-move.png');
 }
 .char-talent-4 {
 	grid-area: c-t-4;
-	background-image: url('../../../docs/assets/images/icons/ctal-critical-save.png');
+	background-image: url('../../../docs/assets/images/icons/ctal-one-is-none.png');
 }
