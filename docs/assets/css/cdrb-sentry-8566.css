@@ -1,0 +1,58 @@
+.prim-img {
+	background-image: url('../../../docs/assets/images/icons/w-ar-urban-mdr.png');
+	background-position: 50% 50%;
+	background-repeat: no-repeat;
+	background-size: contain;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+.sec-img {
+	background-image: url('../../../docs/assets/images/icons/w-mr-m700-carbon.png');
+	background-position: 50% 50%;
+	background-repeat: no-repeat;
+	background-size: contain;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+.off-img {
+	background-image: url('../../../docs/assets/images/icons/w-p-custom-pf45.png');
+	background-position: 50% 50%;
+	background-repeat: no-repeat;
+	background-size: 65%;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+.char-skills {
+	grid-area: c-s-t;
+}
+.char-talents {
+	grid-area: c-t-t;
+}
+.char-skill-1 {
+	grid-area: c-s-1;
+	background-image: url('../../../docs/assets/images/icons/csk-sticky-bomb-flashbang.png');
+}
+.char-skill-sig {
+	grid-area: c-s-s;
+	background-image: url('../../../docs/assets/images/icons/csk-signature-recovery-link.png');
+}
+.char-skill-2 {
+	grid-area: c-s-2;
+	background-image: url('../../../docs/assets/images/icons/csk-support-station-immunizer.png');
+}
+.char-talent-1 {
+	grid-area: c-t-1;
+	background-image: url('../../../docs/assets/images/icons/ctal-adrenaline.png');
+}
+.char-talent-2 {
+	grid-area: c-t-2;
+	background-image: url('../../../docs/assets/images/icons/ctal-on-the-move.png');
+}
+.char-talent-3 {
+	grid-area: c-t-3;
+	background-image: url('../../../docs/assets/images/icons/ctal-one-is-none.png');
+}
+.char-talent-4 {
+	grid-area: c-t-4;
+	background-image: url('../../../docs/assets/images/icons/ctal-combat-medic.png');
+}
