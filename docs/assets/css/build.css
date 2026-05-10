@@ -361,7 +361,7 @@ button {
 	padding-right: 5px;
 }
 
-@media screen and (max-width: 1450px) {		
+@media (max-width: 1450px) {		
 	.container-gear, .container-weapon {
 		display: grid;
 		grid-template-columns: repeat(3, 180px);
@@ -399,7 +399,7 @@ button {
 	}
 }
 
-@media screen and (max-width: 830px) {
+@media (max-width: 830px) {
 	.h2-stat {
 		font-size: 12px;
 	}
@@ -409,7 +409,7 @@ button {
 	}
 }
 
-@media screen and (max-width: 900Px) {
+@media (max-width: 900Px) {
 	.container-details {
 		display: grid;
 		grid-template-columns: repeat(4, 100px);
@@ -424,7 +424,7 @@ button {
 	}
 }
 
-@media screen and (max-width: 750px) {		
+@media (max-width: 750px) {		
 	.container-gear, .container-weapon {
 		display: grid;
 		grid-template-columns: repeat(2, 180px);
@@ -438,7 +438,7 @@ button {
 	}
 }
 
-@media screen and (max-width: 512px) {		
+@media (max-width: 512px) {		
 	.container-gear, .container-weapon {
 		display: grid;
 		grid-template-columns: 180px;
