@@ -101,7 +101,8 @@ button {
 }
 
 .body-container {
-	max-width: 80%;
+	width: 80%;
+	max-width: 1160px;
 	margin: auto;
 	justify-content: center;
 }
