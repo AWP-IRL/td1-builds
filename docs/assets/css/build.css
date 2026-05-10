@@ -365,7 +365,8 @@ button {
 		display: grid;
 		grid-template-columns: repeat(3, 180px);
 		grid-template-rows: repeat(2, 125px);
-	}		
+	}
+	
 	.container-gearmod {
 		display: grid;
 		grid-template-columns: repeat(2, 180px);
@@ -378,6 +379,7 @@ button {
 	.logo-bgdcircle, .logo-cart, .logo-bskt, .logo-wheel1, .logo-wheel2 {
 		zoom: 0.8;
 	}
+	
 	.logo-container {
 		width: 103px;
 		height: 103px;
@@ -389,16 +391,20 @@ button {
 	h1 {
 		font-size: 30px;
 	}
+	
 	.title-image {
 		height: 22px;
 		padding: 8px 0 20px;
 	}
+	
 	h2 {
 		font-size: 14px;
 	}
+	
 	p {
 		font-size: 12px;
 	}
+	
 	ul {
 		font-size: 12px;
 	}
@@ -408,6 +414,7 @@ button {
 	.h2-stat {
 		font-size: 12px;
 	}
+	
 	.h3-stat {
 		font-size: 10px;
 	}
@@ -427,29 +434,34 @@ button {
 			"d-b-d d-b-d d-b-d d-b-d";
 	}
 }
+
 @media screen and (max-width: 750px) {		
 	.container-gear, .container-weapon {
 		display: grid;
 		grid-template-columns: repeat(2, 180px);
 		grid-template-rows: repeat(3, 125px);
-	}		
+	}
+	
 	.container-gearmod {
 		display: grid;
 		grid-template-columns: repeat(2, 180px);
 		grid-template-rows: repeat(2, 125px);
 	}
 }
+
 @media screen and (max-width: 512px) {		
 	.container-gear, .container-weapon {
 		display: grid;
 		grid-template-columns: 180px;
 		grid-template-rows: repeat(6, 125px);
 	}		
+	
 	.container-gearmod {
 		display: grid;
 		grid-template-columns: 180px;
 		grid-template-rows: repeat(4, 125px);
 	}
+	
 	.container-details {
 		display: grid;
 		grid-template-columns: repeat(4, 100px);
