@@ -360,28 +360,21 @@ button {
 	padding-right: 5px;
 }
 
-/* xxl */
-@media only screen (max-width: 1536px) {
-	.body-container {
-		max-width: 1280px;
-	}
-}
-
-/* xl */
-@media (max-width: 1280px) {
-	.body-container {
-		max-width: 1024px;
+@media screen and (max-width: 1450px) {		
+	.container-gear, .container-weapon {
+		display: grid;
+		grid-template-columns: repeat(3, 180px);
+		grid-template-rows: repeat(2, 125px);
+	}		
+	.container-gearmod {
+		display: grid;
+		grid-template-columns: repeat(2, 180px);
+		grid-template-rows: repeat(2, 125px);
 	}
 }
 
 /* lg */
 @media (max-width: 1024px) {
-	.body-container {
-		max-width: 768px;
-	}
-	/*h1 {
-		font-size: 26px;
-	}*/
 	.logo-bgdcircle, .logo-cart, .logo-bskt, .logo-wheel1, .logo-wheel2 {
 		zoom: 0.8;
 	}
@@ -391,21 +384,8 @@ button {
 	}
 }
 
-/* md */
-@media (max-width: 768px) {
-	.body-container {
-		max-width: 640px;
-	}
-	/*h1 {
-		font-size: 22px;
-	}*/
-}
-
 /* sm */
 @media (max-width: 640px) {
-	.body-container {
-		max-width: 480px;
-	}
 	h1 {
 		font-size: 30px;
 	}
@@ -424,12 +404,6 @@ button {
 	}
 }
 
-/* xs */
-@media (max-width: 480px) {
-	.body-container {
-		max-width: 100%;
-}
-
 @media screen and (max-width: 830px) {
 	.h2-stat {
 		font-size: 12px;
@@ -438,18 +412,7 @@ button {
 		font-size: 10px;
 	}
 }
-@media screen and (max-width: 1450px) {		
-	.container-gear, .container-weapon {
-		display: grid;
-		grid-template-columns: repeat(3, 180px);
-		grid-template-rows: repeat(2, 125px);
-	}		
-	.container-gearmod {
-		display: grid;
-		grid-template-columns: repeat(2, 180px);
-		grid-template-rows: repeat(2, 125px);
-	}
-}
+
 @media screen and (max-width: 900Px) {
 	.container-details {
 		display: grid;
