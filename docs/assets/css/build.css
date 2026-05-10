@@ -346,6 +346,7 @@ button {
 .wtalimg {
 	justify-content: center;
 }
+
 .c-det {
 	overflow: hidden;
 	-webkit-align-content: flex-end;
@@ -371,18 +372,6 @@ button {
 		display: grid;
 		grid-template-columns: repeat(2, 180px);
 		grid-template-rows: repeat(2, 125px);
-	}
-}
-
-/* lg */
-@media (max-width: 1024px) {
-	.logo-bgdcircle, .logo-cart, .logo-bskt, .logo-wheel1, .logo-wheel2 {
-		zoom: 0.8;
-	}
-	
-	.logo-container {
-		width: 103px;
-		height: 103px;
 	}
 }
 
