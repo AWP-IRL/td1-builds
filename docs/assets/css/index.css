@@ -69,6 +69,7 @@ ul {
 .body-container {
 	width: 80%;
 	max-width: 1160px;
+	margin: auto;
 	display: flex;
 	justify-content: center;
 }
