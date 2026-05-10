@@ -430,31 +430,75 @@ button {
 		max-width: 100%;
 }
 
-/* from new menu code */
-/*
-
-@media (max-width:60em) {
-  h2 { padding: 0.5em 0; }
+@media screen and (max-width: 830px) {
+	.h2-stat {
+		font-size: 12px;
+	}
+	.h3-stat {
+		font-size: 10px;
+	}
 }
-
-@media (min-width:40em) {
-  html{ font-size: 130%; }
+@media screen and (max-width: 1450px) {		
+	.container-gear, .container-weapon {
+		display: grid;
+		grid-template-columns: repeat(3, 180px);
+		grid-template-rows: repeat(2, 125px);
+	}		
+	.container-gearmod {
+		display: grid;
+		grid-template-columns: repeat(2, 180px);
+		grid-template-rows: repeat(2, 125px);
+	}
 }
-
-@media (min-width:60em) {
-  html { font-size: 135%; }
-  h1 { font-size: 280%; }
+@media screen and (max-width: 900Px) {
+	.container-details {
+		display: grid;
+		grid-template-columns: repeat(4, 100px);
+		grid-template-rows: auto 100px auto 100px auto auto;
+		grid-template-areas:
+			"c-s-t c-s-t c-s-t ."
+			"c-s-1 c-s-s c-s-2 ."
+			"c-t-t c-t-t c-t-t c-t-t"
+			"c-t-1 c-t-2 c-t-3 c-t-4"
+			"b-g b-g b-g b-g"
+			"d-b-d d-b-d d-b-d d-b-d";
+	}
 }
-
-@media (min-width:100em) {
-  h1 { font-size:300%; }
+@media screen and (max-width: 750px) {		
+	.container-gear, .container-weapon {
+		display: grid;
+		grid-template-columns: repeat(2, 180px);
+		grid-template-rows: repeat(3, 125px);
+	}		
+	.container-gearmod {
+		display: grid;
+		grid-template-columns: repeat(2, 180px);
+		grid-template-rows: repeat(2, 125px);
+	}
 }
-
-@media (min-width:160em) {
-  html { font-size: 160% }
-  h1 {
-    font-size: 320%;
-    padding: 1.75em 0 .8em 0;
-  }
+@media screen and (max-width: 512px) {		
+	.container-gear, .container-weapon {
+		display: grid;
+		grid-template-columns: 180px;
+		grid-template-rows: repeat(6, 125px);
+	}		
+	.container-gearmod {
+		display: grid;
+		grid-template-columns: 180px;
+		grid-template-rows: repeat(4, 125px);
+	}
+	.container-details {
+		display: grid;
+		grid-template-columns: repeat(4, 100px);
+		grid-template-rows: auto 100px 100px auto 100px 100px auto auto;
+		grid-template-areas:
+			"c-s-t c-s-t"
+			"c-s-1 c-s-s"
+			"c-s-2 ."
+			"c-t-t c-t-t"
+			"c-t-1 c-t-2"
+			"c-t-3 c-t-4"
+			"b-g b-g"
+			"d-b-d d-b-d";
+	}
 }
-*/
